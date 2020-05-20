@@ -1,0 +1,22 @@
+{
+  "name": "test-wx-miniprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangrunhao/test_miniprograme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangrunhao/test_miniprograme/issues"
+  },
+  "homepage": "https://github.com/zhangrunhao/test_miniprograme#readme",
+  "dependencies": {
+    "threejs-miniprogram": "0.0.4"
+  }
+}
