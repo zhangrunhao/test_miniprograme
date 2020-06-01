@@ -1,0 +1,3 @@
+<view wx:for="{{finallyArray}}" wx:for-item="line" wx:key="index" class="page">
+  <view wx:for="{{line}}" wx:for-item="textObejct" wx:key="index" class="span {{textObejct.type}}" >{{textObejct.text}}</view>
+</view>

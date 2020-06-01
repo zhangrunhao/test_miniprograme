@@ -1,0 +1,9 @@
+.page {
+
+}
+.page .vr{
+  color: red;
+}
+.page .span {
+  display: inline;
+}
