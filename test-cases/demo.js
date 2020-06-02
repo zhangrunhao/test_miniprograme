@@ -1,5 +1,5 @@
 export function renderDemo(canvas, THREE) {
-  var camera, scene, renderer, mesh;
+  var camera, scene, renderer, mesh, lon = 0.1;
 
   function init() {
     renderer = new THREE.WebGLRenderer();
@@ -8,7 +8,6 @@ export function renderDemo(canvas, THREE) {
 
     scene = new THREE.Scene();
     camera = new THREE.PerspectiveCamera(90, canvas.width / canvas.height, 0.1, 100);
-    camera.position.z = 0.01;
 
     var materials = getMaterials();
     mesh = new THREE.Mesh(new THREE.BoxBufferGeometry(1, 1, 1), materials);
@@ -26,14 +25,25 @@ export function renderDemo(canvas, THREE) {
     }
     return materials;
   }
-  
+
   function animate() {
     canvas.requestAnimationFrame(animate)
-    mesh.rotation.x += 0.001;
-    mesh.rotation.y += 0.005;
-    renderer.render(scene, camera)
+    update()
   }
 
+  function update() {
+    lon += 0.1;
+
+    var phi = THREE.Math.degToRad(90);
+    var theta = THREE.Math.degToRad(lon);
+
+    var x = Math.sin(phi) * Math.cos(theta);
+    var y = Math.cos(phi);
+    var z = Math.sin(phi) * Math.sin(theta);
+    
+    camera.lookAt(new THREE.Vector3(x, y, z))
+    renderer.render(scene, camera)
+  }
   init()
   animate()
 }
