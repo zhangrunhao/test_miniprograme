@@ -20,7 +20,10 @@ const {
 const app = getApp()
 
 Page({
-  data: {},
+  data: {
+    latitude: 23.099994,
+    longitude: 113.324520,
+  },
   onLoad: function () {
     wx.createSelectorQuery()
       .select('#webgl')
