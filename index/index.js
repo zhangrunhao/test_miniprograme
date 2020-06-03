@@ -25,17 +25,17 @@ Page({
     longitude: 113.324520,
   },
   onLoad: function () {
-    wx.createSelectorQuery()
-      .select('#webgl')
-      .node()
-      .exec((res) => {
-        const canvas = res[0].node
-        const THREE = createScopedThreejs(canvas)
-        // renderSphere(canvas, THREE)
-        // renderCube(canvas, THREE)
-        // renderCubes(canvas, THREE)
-        // renderModel(canvas, THREE)
-        renderDemo(canvas, THREE)
-      })
+    // wx.createSelectorQuery()
+    //   .select('#webgl')
+    //   .node()
+    //   .exec((res) => {
+    //     const canvas = res[0].node
+    //     const THREE = createScopedThreejs(canvas)
+    //     // renderSphere(canvas, THREE)
+    //     // renderCube(canvas, THREE)
+    //     // renderCubes(canvas, THREE)
+    //     // renderModel(canvas, THREE)
+    //     renderDemo(canvas, THREE)
+    //   })
   },
 })

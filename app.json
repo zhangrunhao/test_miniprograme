@@ -1,8 +1,8 @@
 {
   "pages": [
+    "index/index",
     "pano/pano",
     "cover/cover",
-    "index/index",
     "test/test"
   ],
   "window": {

@@ -1,12 +1,12 @@
-<canvas
+<!-- <canvas
   id="webgl"
-  type="2d"
+  type="webgl"
   style="width: 100%; height: 300px;"
 >
   <cover-view class="cover-view">
   </cover-view>
-</canvas>
-
+</canvas> -->
+<web-view src="https://720yun.com/t/08aje7mmrk8?scene_id=17800531#scene_id=17800531"></web-view>
 
 <!-- <map
   style="width: 100%; height: 300px;"
