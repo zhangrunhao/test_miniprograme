@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pano/pano",
     "cover/cover",
     "index/index",
     "test/test"
@@ -10,5 +11,11 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "wxPano": {
+      "version": "2.0.4",
+      "provider": "wx386c038238531f87"
+    }
+  }
 }
