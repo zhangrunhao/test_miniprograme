@@ -1,21 +1,5 @@
 {
   "pages": [
-    "index/index",
-    "pano/pano",
-    "cover/cover",
-    "test/test"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-  "sitemapLocation": "sitemap.json",
-  "plugins": {
-    "wxPano": {
-      "version": "2.0.4",
-      "provider": "wx386c038238531f87"
-    }
-  }
+    "eat/eat"
+  ]
 }

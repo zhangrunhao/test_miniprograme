@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/zhangrunhao/test_miniprograme/issues"
   },
-  "homepage": "https://github.com/zhangrunhao/test_miniprograme#readme",
-  "dependencies": {
-    "threejs-miniprogram": "0.0.4"
-  }
+  "homepage": "https://github.com/zhangrunhao/test_miniprograme#readme"
 }
